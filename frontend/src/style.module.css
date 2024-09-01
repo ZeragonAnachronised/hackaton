@@ -1,0 +1,185 @@
+.App {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(24, 20, 30);
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+.App p {
+    background-image: url(RziF.gif);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.App h1 {
+    color: white;
+}
+.App h4 {
+    color: white;
+}
+.App button {
+    cursor: pointer;
+}
+
+.btns {
+    display: none;
+}
+.btns.active {
+    display: flex;
+    flex-direction: row;
+    width: 564px;
+    margin: auto;
+    margin-top: -250px;
+}
+.btns button {
+    width: 285px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid white;
+    height: 50px;
+    color: white;
+}
+
+.RegForm {
+    display: none;
+}
+.RegForm.active {
+    display: block;
+    background-image: url(moving-million-stars-7hoghfwikbqh3c3s.gif);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    padding: 30px;
+    margin: auto;
+    border: 2px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.RegForm.active h3 {
+    color: white;
+}
+.RegForm.active input {
+    height: 50px;
+    font-size: 40px;
+}
+.RegForm.active button {
+    background-color: black;
+    border: 1px solid white;
+    height: 50px;
+    margin-top: 200px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.Message.others {
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid white;
+    height: fit-content;
+    color: white;
+    margin: auto;
+    margin: 10px;
+}
+.Message.mine.others {
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid white;
+    height: fit-content;
+    color: white;
+    margin: auto;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: -70px;
+}
+
+.Chat {
+    display: none;
+}
+.Chat.active {
+    display: block;
+    background-image: url(moving-million-stars-7hoghfwikbqh3c3s.gif);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 30px;
+    margin: auto;
+    margin-top: -250px;
+    border: 2px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn {
+    display: block;
+    width: 470px;
+    text-align: center;
+    margin: auto;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.CreateBtn {
+    display: none;
+}
+.CreateBtn.active {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.menu {
+    display: block;
+}
+
+.Img {
+    width: 100px;
+    height: 100px;
+}
+.swiper {
+    margin-top: -920px;
+    width: 1300px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.Invite {
+    display: none;
+}
+.Invite.active {
+    display: block;
+    position: fixed;
+    right: 50px;
+    top: 30%;
+    width: 500px;
+    height: 400px;
+    overflow: scroll;
+    background-color: black;
+    border: 2px solid white;
+}
+.Invite.active h4 {
+    color: white;
+}
+.Invite.active button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
